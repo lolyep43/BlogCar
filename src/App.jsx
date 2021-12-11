@@ -10,12 +10,12 @@ export default function App() {
   return (
     <div>
       <Topbar />
-      {/* <Footer /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/produk" element={<Produk />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
